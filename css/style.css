@@ -1,0 +1,457 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+sup {
+    font-size: 0.6em;
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+.list-line {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-line {
+    background-color: #1f1f56;
+}
+
+.header-line ul {
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+    max-width: 490px;
+    list-style: none;
+    padding: 0;
+}
+
+.header-line li a {
+    text-decoration: none;
+    font: 14px/24px Arial;
+    letter-spacing: 2px;
+    color: #b1b1d2;
+}
+
+.header-line li a:hover {
+    color: #fd8300;
+}
+
+.social-networks {
+    margin: 0;
+    width: 96px;
+}
+
+.social-networks a {
+    display: block;
+    width: 32px;
+    position: relative;
+}
+
+.faceboock::before {
+    content: '';
+    position: absolute;
+    background: url(../img/fb.png);
+    width: 10px;
+    height: 18px;
+    top: 25%;
+}
+
+.faceboock:hover:before {
+    background: url(../img/fb-orange.png);
+}
+
+.twiter::before {
+    content: '';
+    position: absolute;
+    background: url(../img/tw.png);
+    width: 18px;
+    height: 15px;
+    top: 30%;
+}
+
+.twiter:hover:before {
+    background: url(../img/tw-orange.png);
+}
+
+.instagram::before {
+    content: '';
+    position: absolute;
+    background: url(../img/inst.png);
+    width: 19px;
+    height: 19px;
+    top: 25%;
+}
+
+.instagram:hover:before {
+    background: url(../img/inst-orange.png);
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+
+.phone {
+    margin-right: 60px;
+    font: bold 18px/24px Arial;
+    color: #25252c;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone a:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background: url(../img/phone.png);
+    top: 5%;
+    left: -15%;
+}
+
+.phone a {
+    color: #25252c;
+    text-decoration: none;
+    position: relative;
+}
+
+.phone a:hover {
+    color: #fd8300;
+}
+
+.mail {
+    font: 16px/24px Arial;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mail a:nth-child(2):before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    background: url(../img/skype.png);
+    left: -15%;
+}
+
+.mail a:nth-child(2) {
+    text-decoration: none;
+}
+
+.mail a {
+    color: #25252c;
+}
+
+.mail a:hover {
+    color: #fd8300;
+}
+
+.mail a:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 13px;
+    background: url(../img/email.png);
+    top: 10%;
+    left: -15%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    text-decoration: none;
+    font: bold 16px/24px Arial;
+    color: #25252c;
+    min-width: 200px;
+    padding: 11.5px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background-color: #fd8300;
+}
+
+.main-picture {
+    background: url(../img/main-picture.jpg);
+    background-size: cover;
+}
+
+.main-picture .wrapper {
+    width: 960px;
+    margin: auto;
+    padding: 58px 0 45px 0;
+}
+
+.main-picture p {
+    display: block;
+    text-align: center;
+    font: 14px/24px Arial;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main-picture p b {
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    font: 700 30px/24px "Roboto Slab";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.main-picture .price {
+    display: inline;
+    font: bold 24px/24px Arial;
+    color: #fd8300;
+}
+
+.main-picture .price b {
+    display: inline;
+    margin-right: 10px;
+    font: bold 40px/24px Arial;
+    color: #fd8300;
+}
+
+.main-picture .price {
+    display: block;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0 47px 0;
+    width: 960px;
+    margin: auto;
+}
+
+.brochure {
+    max-width: 713px;
+}
+
+.houses {
+    display: block;
+}
+
+.houses-for-sale {
+    display: flex;
+    justify-content: space-between;
+}
+
+.houses-for-sale figure {
+    margin: 0;
+}
+
+.card p,
+.card h3 {
+    margin: 0;
+}
+
+.card h3 {
+    font: bold 14px/24px Arial;
+    color: #1f1f56;
+}
+
+.card p {
+    font: 13px/18px Arial;
+    color: #9999a6;
+}
+
+.main-info {
+    margin-bottom: 67px;
+}
+
+.main-info h1 {
+    font: 700 30px "Roboto Slab";
+    color: #24242b;
+}
+
+.main-info p {
+    font: 14px/24px Arial;
+    color: #666666;
+    padding-right: 45px;
+}
+
+.main-info a {
+    font: bold 14px/24px Arial;
+    text-decoration: underline;
+    color: #fd8300;
+    position: relative;
+}
+
+.main-info a::before {
+    content: '';
+    position: absolute;
+    width: 713px;
+    height: 1px;
+    bottom: -250%;
+    background-color: #e4e4ec;
+}
+
+.houses h2 {
+    font: 700 24px/24px "Roboto Slab";
+    color: #24242b;
+}
+
+.table ul {
+    list-style: none;
+}
+
+.table h3 {
+    margin: 0;
+    min-width: 220px;
+    padding: 10.5px;
+    border-radius: 3px 3px 0 0;
+    background-color: #1f1f56;
+    font: 700 16px/24px "Roboto Slab";
+    color: #ffffff;
+}
+
+.table a {
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    box-shadow: inset 0px -1px 0px #cecedd;
+    min-width: 219px;
+    padding: 10px;
+    background-color: #e4e4ec;
+    font: 14px/24px Arial;
+    color: #25252c;
+    position: relative;
+}
+
+.table li ul a {
+    display: none;
+    margin: 0;
+    box-shadow: inset 0px -1px 0px #cecedd;
+    min-width: 219px;
+    padding: 10px;
+    background-color: #e4e4ec;
+    font: 14px/24px Arial;
+    color: #25252c;
+    position: relative;
+}
+
+.table li:hover ul a {
+    display: block;
+}
+
+
+.table li .before:hover {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.table li:hover span {
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+    transform: rotate(45deg);
+}
+
+.table li ul a:hover {
+    background-color: #cecedd;
+}
+
+.table ul {
+    padding: 0;
+}
+
+.table li span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #666;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    transform: rotate(-45deg);
+}
+
+.table li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background: #e4e4ec;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 0 30px 0;
+    width: 960px;
+    margin: auto;
+}
+
+footer .phone a {
+    text-decoration: none;
+    font: bold 18px/24px Arial;
+    color: #25252c;
+}
+
+.skype {
+    position: relative;
+}
+
+.skype::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    background: url(../img/skype.png);
+    left: -15%;
+}
+
+footer .mail a {
+    font: 16px/24px Arial;
+    color: #25252c;
+}
+
+footer a:hover {
+    color: #fd8300;
+    text-decoration: unset;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer li a {
+    text-decoration: none;
+    font: 14px/26px Arial;
+    color: #666666;
+}
+
+.copy {
+    background-color: #dcdce6;
+    padding: 13px;
+    margin: 0;
+    text-align: center;
+    font: 13px/18px Arial;
+    color: #9999a6;
+    text-align: center;
+}
