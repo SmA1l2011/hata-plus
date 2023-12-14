@@ -1,0 +1,83 @@
+.main-wrapper {
+    display: block;
+}
+
+.table-text h2 {
+    font: 700 24px/24px "Roboto Slab";
+    color: #24242b;
+}
+
+.table-text p {
+    font: 14px/24px "Arial";
+    color: #666;
+    max-width: 850px;
+}
+
+.table-text a {
+    font: bold 14px/24px "Arial";
+    text-decoration: underline;
+    color: #fd8300;
+    transition: all 0.3s ease;
+}
+
+.table-text a:hover {
+    color: #666;
+}
+
+.p-info p {
+    margin: 0;
+}
+
+.p-info {
+    margin: 20px 0;
+}
+
+table td {
+    box-shadow: inset 0px -1px 0px #cecedd;
+    background-color: #e4e4ec;
+    padding: 13px;
+    transition: all 0.3s ease;
+}
+
+table tr:last-child td {
+    box-shadow: unset;
+}
+
+thead td {
+    font: 700 14px/24px "Roboto Slab";
+    color: #ffffff;
+}
+
+table thead td {
+    background-color: #1f1f56;
+}
+
+table thead td:first-child {
+    border-radius: 3px 0 0 0;
+}
+
+table thead td:last-child {
+    border-radius: 0 3px 0 0;
+}
+
+table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 3px;
+}
+
+table tbody tr:last-child td:last-child {
+    border-radius: 0 0 3px 0;
+}
+
+tbody tr:hover td {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.houses-for-sale {
+    width: 960px;
+}

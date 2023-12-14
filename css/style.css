@@ -266,6 +266,11 @@ a.inst:hover {
 .card h3 {
     font: bold 14px/24px Arial;
     color: #1f1f56;
+    transition: all 0.3s ease;
+}
+
+.card h3:hover {
+    color: #fd8300;
 }
 
 .card p {
