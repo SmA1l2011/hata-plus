@@ -36,6 +36,7 @@ sup {
     font: 14px/24px Arial;
     letter-spacing: 2px;
     color: #b1b1d2;
+    transition: all 0.3s ease;
 }
 
 .header-line li a:hover {
@@ -43,53 +44,46 @@ sup {
 }
 
 .social-networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
     width: 96px;
 }
 
 .social-networks a {
     display: block;
-    width: 32px;
-    position: relative;
+    background: url(../img/sprite.png) no-repeat;
+    transition: all 0.3s ease;
 }
 
-.faceboock::before {
-    content: '';
-    position: absolute;
-    background: url(../img/fb.png);
+a.fb {
     width: 10px;
-    height: 18px;
-    top: 25%;
+    height: 19px;
 }
 
-.faceboock:hover:before {
-    background: url(../img/fb-orange.png);
+a.fb:hover {
+    background-position: 0 -19px;
 }
 
-.twiter::before {
-    content: '';
-    position: absolute;
-    background: url(../img/tw.png);
+a.tw {
     width: 18px;
     height: 15px;
-    top: 30%;
+    background-position: -10px -1px;
 }
 
-.twiter:hover:before {
-    background: url(../img/tw-orange.png);
+a.tw:hover {
+    background-position: -10px -16px;
 }
 
-.instagram::before {
-    content: '';
-    position: absolute;
-    background: url(../img/inst.png);
+a.inst {
     width: 19px;
     height: 19px;
-    top: 25%;
+    background-position: -28px -1px;
 }
 
-.instagram:hover:before {
-    background: url(../img/inst-orange.png);
+a.inst:hover {
+    background-position: -28px -20px;
 }
 
 .header-info {
@@ -118,7 +112,7 @@ sup {
     position: absolute;
     width: 17px;
     height: 17px;
-    background: url(../img/phone.png);
+    background:0 -38px url(../img/sprite.png);
     top: 5%;
     left: -15%;
 }
@@ -127,6 +121,7 @@ sup {
     color: #25252c;
     text-decoration: none;
     position: relative;
+    transition: all 0.3s ease;
 }
 
 .phone a:hover {
@@ -145,7 +140,7 @@ sup {
     position: absolute;
     width: 18px;
     height: 19px;
-    background: url(../img/skype.png);
+    background:-35px -39px url(../img/sprite.png);
     left: -15%;
 }
 
@@ -155,6 +150,7 @@ sup {
 
 .mail a {
     color: #25252c;
+    transition: all 0.3s ease;
 }
 
 .mail a:hover {
@@ -166,7 +162,7 @@ sup {
     position: absolute;
     width: 17px;
     height: 13px;
-    background: url(../img/email.png);
+    background:-18px -39px url(../img/sprite.png);
     top: 10%;
     left: -15%;
 }
@@ -184,7 +180,7 @@ sup {
     border-radius: 25px;
     background-color: #ffffff;
     border: 2px solid #fd8300;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .button:hover {
@@ -350,6 +346,7 @@ sup {
     font: 14px/24px Arial;
     color: #25252c;
     position: relative;
+    transition: all 0.3s ease;
 }
 
 .table li:hover ul a {
@@ -370,6 +367,10 @@ sup {
 
 .table li ul a:hover {
     background-color: #cecedd;
+}
+
+.table li {
+    transition: all 0.3s ease;
 }
 
 .table ul {
