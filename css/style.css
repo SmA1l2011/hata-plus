@@ -1,3 +1,14 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+}
+
+main {
+    padding-top: 175px;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -231,6 +242,10 @@ a.inst:hover {
 
 .main-picture .price {
     display: block;
+}
+
+.picture {
+    padding-top: 175px;
 }
 
 .main-wrapper {

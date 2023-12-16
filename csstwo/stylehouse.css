@@ -14,10 +14,22 @@
 }
 
 .table-text a {
+    display: block;
     font: bold 14px/24px "Arial";
     text-decoration: underline;
     color: #fd8300;
     transition: all 0.3s ease;
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.table-text a::before {
+    content: '';
+    position: absolute;
+    width: 960px;
+    height: 1px;
+    background-color: #e4e4ec;
+    top: 240%;
 }
 
 .table-text a:hover {
@@ -41,6 +53,10 @@ table td {
 
 table tr:last-child td {
     box-shadow: unset;
+}
+
+table td:last-child {
+    text-align: right;
 }
 
 thead td {
@@ -80,4 +96,9 @@ table {
 
 .houses-for-sale {
     width: 960px;
+}
+
+header {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.1));
+    background-color: #ffffff;
 }
