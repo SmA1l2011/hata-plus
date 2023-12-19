@@ -1,0 +1,100 @@
+.main-wrapper {
+    display: block;
+}
+
+main {
+    padding-top: 175px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul:last-child {
+    width: 300px;
+}
+
+.contact-info ul p {
+    margin: 0;
+}
+
+.contact-info ul li {
+    font: 14px/21px "Arial";
+    color: #666;
+}
+
+.contact-info ul li h3 {
+    font: 700 14px/24px "Roboto Slab";
+    color: #24242b;
+}
+
+.contact-info ul li b a {
+    font: bold 18px/24px "Arial";
+    color: #25252c;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    color: #fd8300;
+}
+
+.contact-info ul li a {
+    font: 16px/24px "Arial";
+    color: #25252c;
+    transition: all 0.3s ease;
+}
+
+.contact-info ul:last-child li:not(:first-child) {
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    font-size: 700 24px/24px "Roboto Slab";
+    color: #24242b;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    width: 467px;
+    height: 296px;
+}
+
+.map iframe {
+    width: 467px;
+    height: 296px;
+}
+
+.inputs {
+    max-width: 467px;
+}
+
+.inputs input {
+    padding: 11px 15px;
+    min-width: 229px;
+    margin-bottom: 10px;
+}
+
+.inputs .topic {
+    min-width: 467px;
+}
+
+.inputs textarea {
+    padding: 11px 15px;
+    max-width: 467px;
+    max-height: 106px;
+    resize: vertical;
+}
+
+.top-inputs {
+    display: flex;
+    justify-content: space-between;
+}
