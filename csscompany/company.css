@@ -3,7 +3,7 @@
 }
 
 .contact {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 main {
@@ -13,6 +13,11 @@ main {
 .contact-info {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.contact-info address {
+    font-style: normal;
 }
 
 .contact-info ul {
@@ -117,7 +122,7 @@ main {
     background: #e4e4ec;
     width: 960px;
     height: 1px;
-    margin-bottom: 50px;
+    margin: 0;
 }
 
 .inputs input::placeholder,
