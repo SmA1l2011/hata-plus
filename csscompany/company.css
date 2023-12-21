@@ -135,6 +135,8 @@ main {
     padding: 11px 15px;
     min-width: 229px;
     margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #c5c5d4;
 }
 
 .inputs .topic {
@@ -148,6 +150,8 @@ main {
     min-height: 106px;
     resize: vertical;
     margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #c5c5d4;
 }
 
 .top-inputs,
