@@ -67,12 +67,15 @@ main {
 
 .map {
     width: 467px;
-    height: 296px;
+    height: 358px;
+    overflow: hidden;
 }
 
 .map iframe {
     width: 467px;
-    height: 296px;
+    height: 358px;
+    margin-top: -62px;
+    border: none;
 }
 
 .inputs {
@@ -111,6 +114,11 @@ main {
     right: 0;
     width: 960px;
     height: 1px;
+}
+
+.inputs input::placeholder,
+.inputs textarea::placeholder {
+    font-style: italic;
 }
 
 .inputs input {
