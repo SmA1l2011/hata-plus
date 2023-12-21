@@ -2,6 +2,10 @@
     display: block;
 }
 
+.contact {
+    margin-bottom: 30px;
+}
+
 main {
     padding-top: 175px;
 }
@@ -9,12 +13,12 @@ main {
 .contact-info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
 }
 
 .contact-info ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .contact-info ul:last-child {
@@ -28,6 +32,7 @@ main {
 .contact-info ul li {
     font: 14px/21px "Arial";
     color: #666;
+    margin-bottom: 10px;
 }
 
 .contact-info ul li h3 {
@@ -67,14 +72,15 @@ main {
 
 .map {
     width: 467px;
-    height: 358px;
+    height: 370px;
     overflow: hidden;
+    margin: 0;
 }
 
 .map iframe {
     width: 467px;
-    height: 358px;
-    margin-top: -62px;
+    height: 370px;
+    margin-top: -70px;
     border: none;
 }
 
@@ -103,22 +109,21 @@ main {
 }
 
 .inputs h2 {
-    position: relative;
+    margin: 0;
+    margin-bottom: 17px;
 }
 
-.inputs h2::before {
-    content: '';
-    position: absolute;
+.contact hr {
     background: #e4e4ec;
-    top: -200%;
-    right: 0;
     width: 960px;
     height: 1px;
+    margin-bottom: 50px;
 }
 
 .inputs input::placeholder,
 .inputs textarea::placeholder {
     font-style: italic;
+    font-family: "Arial";
 }
 
 .inputs input {
