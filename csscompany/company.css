@@ -71,7 +71,7 @@ main {
 }
 
 .map {
-    width: 467px;
+    width: 49%;
     height: 370px;
     overflow: hidden;
     margin: 0;
@@ -85,7 +85,7 @@ main {
 }
 
 .inputs {
-    max-width: 467px;
+    max-width: 49%;
 }
 
 .inputs {
