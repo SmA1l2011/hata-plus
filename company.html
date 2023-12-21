@@ -61,7 +61,9 @@
                         <li>
                             <h3>Наш офіс</h3>
                         </li>
-                        <li><address>с. Війтівці, Хмельницька обл. 27500</address></li>
+                        <li>
+                            <address>с. Війтівці, Хмельницька обл. 27500</address>
+                        </li>
                         <li><b><a href="tel:380971002525">+38(097) 100-25-25</a></b></li>
                         <li><b><a href="tel:380971002525">+38(097) 100-25-25</a></b></li>
                         <li><a href="mailto:hataplus@hata.com.ua">hataplus@hata.com.ua</a></li>
@@ -94,16 +96,19 @@
             <div class="form">
                 <div class="map">
                     <iframe
-                        src="https://www.google.com/maps/d/embed?mid=1eCeTDteGMbjNcus6o4BTHNiydCG10JU&ehbc=2E312F"></iframe>
+                        src="https://www.google.com/maps/d/embed?mid=1eCeTDteGMbjNcus6o4BTHNiydCG10JU&ehbc=2E312F">
+                    </iframe>
                 </div>
                 <div class="inputs">
                     <h2>Форма зворотнього зв’язку</h2>
                     <div class="top-inputs">
-                        <label for="name"><input type="text" placeholder="Ваше ім’я" name="name"></label>
-                        <label for="tel"><input type="tel" placeholder="Телефон" name="tel"></label>
+                        <label for="name"><input type="text" placeholder="Ваше ім’я" name="name" maxlength="30"></label>
+                        <label for="tel"><input type="tel" placeholder="Телефон" name="tel" maxlength="20"></label>
                     </div>
-                    <input class="topic" type="text" placeholder="Тема повідомлення">
-                    <label for="text"><textarea name="text" id="#" cols="60" rows="10" placeholder="Текст"></textarea></label>
+                    <input class="topic" type="text" placeholder="Тема повідомлення" maxlength="100">
+                    <label for="text">
+                        <textarea name="text" id="#" cols="60" rows="10"placeholder="Текст" maxlength="500"></textarea>
+                    </label>
                     <div class="down-inputs">
                         <input class="button" type="submit" value="Відправити">
                         <input type="checkbox" name="news" id="news">
