@@ -164,7 +164,7 @@ main {
 .form .down-inputs input:not(:first-child) {
     padding: unset;
     min-width: unset;
-    margin-bottom: unset;
+    margin-bottom: 3px;
 }
 
 .down-inputs label {
